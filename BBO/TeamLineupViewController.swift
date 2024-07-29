@@ -9,13 +9,27 @@ import UIKit
 
 class TeamLineupViewController: UIViewController {
 
+    @IBOutlet var containerViews: [UIView]!
+    @IBOutlet var views: [UIView]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func changeInfo(_ sender: UISegmentedControl) {
+        containerViews.forEach {
+            $0.isHidden = true
+        }
+        views.forEach {
+            $0.isHidden = true
+        }
+        containerViews[sender.selectedSegmentIndex].isHidden = false
+        views[sender.selectedSegmentIndex].isHidden = false
+        
+    }
+    
     /*
     // MARK: - Navigation
 

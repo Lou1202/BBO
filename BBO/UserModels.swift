@@ -17,16 +17,26 @@ struct CreateUser: Codable {
     let password: String
 }
 
+struct UserSessionRequest: Codable {
+    let user: UserSession
+}
+
+struct UserSession: Codable {
+    let login: String
+    let password: String
+}
 
 struct UserResponse: Codable {
     let userToken: String?
     let login: String?
+    let mail: String?
     let errorCode: Int?
     let message: String?
     
     enum CodingKeys: String, CodingKey{
         case userToken = "User-Token"
         case login
+        case mail
         case errorCode = "error_code"
         case message
     }

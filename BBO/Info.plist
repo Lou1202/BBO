@@ -2,6 +2,43 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb770208051838716</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAdvertiserIDCollectionEnabled</key>
+	<string>TRUE</string>
+	<key>FacebookAppID</key>
+	<string>770208051838716</string>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<string>TRUE</string>
+	<key>FacebookClientToken</key>
+	<string>a0b7a3373d53a858eae312ec461f6148</string>
+	<key>FacebookDisplayName</key>
+	<string>BBO</string>
+	<key>LSApplicationQueriesSchemes
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;array&gt;
+	&lt;string&gt;&lt;/string&gt;
+	&lt;string&gt;&lt;/string&gt;
+	&lt;string&gt;&lt;/string&gt;
+&lt;/array&gt;
+&lt;/plist&gt;
+</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api </string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
