@@ -1,17 +1,14 @@
 //
-//  LoginViewController.swift
+//  UserViewController.swift
 //  BBO
 //
-//  Created by 楊曜安 on 2024/7/14.
+//  Created by 楊曜安 on 2024/8/3.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class UserViewController: UIViewController {
 
-    @IBOutlet weak var loginTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
