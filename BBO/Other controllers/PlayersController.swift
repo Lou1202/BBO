@@ -85,7 +85,7 @@ class PlayersController {
         
         let (data, response) = try await URLSession.shared.data(for: request)
         
-        guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 201 else {
+        guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
             throw PlayersControllerError.addLineupFailed
         }
         
@@ -150,7 +150,7 @@ class PlayersController {
         
         let (_, response) = try await URLSession.shared.data(for: request)
         
-        guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 204 else {
+        guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
             throw PlayersControllerError.deleteLineupFailed
         }
         return true
