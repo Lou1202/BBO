@@ -1,3 +1,3 @@
 BBO 球員卡查詢器app
 
-![image]
+![image]BBO截圖1.png
