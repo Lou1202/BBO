@@ -1,4 +1,4 @@
-BBO 球員卡查詢器app/n
+BBO 球員卡查詢器APP
 
 FavQs API串接帳號註冊&登入
 
